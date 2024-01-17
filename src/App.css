@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,4 +42,30 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.list-wrapper {
+
+  background-color: rgb(17, 55, 87);
+  padding: 20px 200px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-top: 20px;
+}
+
+
+
+
+ul {
+  list-style: none;
+  font-size: 40px;
+
+}
+
+li {
+  display: inline;
+  padding: 0 20px;
 }
