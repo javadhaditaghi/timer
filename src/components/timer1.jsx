@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import styles from "./timer1.module.css";
+import styles from "./timer1.module.css";
 
 
 const TimerA = (props) => {
@@ -16,7 +16,8 @@ const TimerA = (props) => {
     }
 
     return (
-        <div className="wrapper">
+        <div className={styles.wrapper}>
+            <h2>Exercise 1</h2>
             <h1>{time}</h1>
             <button onClick={timeHandler}>Get Time</button>
         </div>

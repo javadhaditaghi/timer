@@ -25,7 +25,8 @@ const TimerB = (props) => {
 
     })
     return (
-        <div>
+        <div className={styles.wrapper}>
+            <h2>Exercise 2</h2>
             <h1>{time}</h1>
         </div>
     )
